@@ -1,0 +1,8 @@
+{
+  "translations": {
+    "author": "siol",
+    "parent_permlink": "test",
+    "permlink": "translations"
+  },
+  "api": "https://upfundme.herokuapp.com/v1"
+}
