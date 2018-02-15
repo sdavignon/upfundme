@@ -102,7 +102,7 @@ function makePlugins(options) {
         filename: '../css/style.[contenthash].css',
       }),
       new HtmlWebpackPlugin({
-        title: 'Busy',
+        title: 'UPFund.me',
         filename: '../index.html',
         template: path.join(options.baseDir, '/templates/production_index.html'),
       }),

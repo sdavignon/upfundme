@@ -5,7 +5,7 @@ import './SidebarBlock.less';
 const GetBoost = () => (
   <div className="SidebarBlock">
     <h3 className="SidebarBlock__title">
-      <FormattedMessage id="get_boost" defaultMessage="Get the Busy boost!" />
+      <FormattedMessage id="get_boost" defaultMessage="Get the UPFund.me boost!" />
     </h3>
     <p>
       <FormattedMessage

@@ -220,7 +220,7 @@ export default class Settings extends React.Component {
     return (
       <div className="shifted">
         <Helmet>
-          <title>{intl.formatMessage({ id: 'settings', defaultMessage: 'Settings' })} - Busy</title>
+          <title>{intl.formatMessage({ id: 'settings', defaultMessage: 'Settings' })} - UPFund.me</title>
         </Helmet>
         <div className="settings-layout container">
           <Affix className="leftContainer" stickPosition={77}>
@@ -283,7 +283,7 @@ export default class Settings extends React.Component {
                   <p>
                     <FormattedMessage
                       id="language_info"
-                      defaultMessage="What language do you want to use on Busy?"
+                      defaultMessage="What language do you want to use on UPFund.me?"
                     />
                   </p>
                   <Select
@@ -326,7 +326,7 @@ export default class Settings extends React.Component {
                   <p>
                     <FormattedMessage
                       id="rewrite_links_details"
-                      defaultMessage="You can enable this option to replace Steemit.com links with Busy.org links."
+                      defaultMessage="You can enable this option to replace Steemit.com links with UPFund.me links."
                     />
                   </p>
                   <div className="Settings__section__checkbox">
@@ -341,17 +341,17 @@ export default class Settings extends React.Component {
                 </div>
                 <div className="Settings__section">
                   <h3>
-                    <FormattedMessage id="use_beta" defaultMessage="Use Busy beta" />
+                    <FormattedMessage id="use_beta" defaultMessage="Use UPFund.me beta" />
                   </h3>
                   <p>
                     <FormattedMessage
                       id="use_beta_details"
-                      defaultMessage="You can enable this option to use Busy beta by default."
+                      defaultMessage="You can enable this option to use UPFund.me beta by default."
                     />
                   </p>
                   <div className="Settings__section__checkbox">
                     <Checkbox name="use_beta" checked={useBeta} onChange={this.handleUseBetaChange}>
-                      <FormattedMessage id="use_beta" defaultMessage="Use Busy beta" />
+                      <FormattedMessage id="use_beta" defaultMessage="Use UPFund.me beta" />
                     </Checkbox>
                   </div>
                 </div>

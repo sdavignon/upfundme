@@ -1,6 +1,6 @@
-## Contributing to Busy
+## Contributing to UPFund.me
 
-Want to get involved in Busy developement? Thanks! There are plenty of ways you can help!
+Want to get involved in UPFund.me developement? Thanks! There are plenty of ways you can help!
 
 Please take a moment to review this document in order to make the contribution process easy and
 effective for everyone involved.
